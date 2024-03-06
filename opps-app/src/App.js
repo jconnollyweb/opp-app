@@ -10,7 +10,7 @@ const App = () => {
       <div>
         <Header />
       <Routes>
-        <Route path="/" element={<OpenRoles />} />
+        <Route path="/opps-app" element={<OpenRoles />} />
         <Route path="/role/:id" element={<RoleDetails />} />
       </Routes>
       </div>
