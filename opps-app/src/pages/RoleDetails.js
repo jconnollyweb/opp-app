@@ -2,6 +2,7 @@ import React from 'react';
 import rolesData from '../data';
 import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom'
+import './RoleDetails.css'
 
 const RoleDetails = () => {
   const { id } = useParams(); 
@@ -12,14 +13,31 @@ const RoleDetails = () => {
   }
 
   return (
-    <div>
-      <h2>{role.account}</h2>
-      <p>Start Date: {role.startDate}</p>
-      <p>End Date: {role.endDate}</p>
-      <p>Revenue: {role.revenue}</p>
-      <p>Location: {role.location}</p>
-      <p>Forecast: {role.forecast}</p>
-      <Link to={'/'}>Back</Link>
+    <div className='main-container'> 
+    <div className='details-container'>
+      <div className='title-container'>
+       <h2>{role.account}</h2>
+      </div>
+      <div className='both-sides'>
+      <div className='left-side'>
+          <p>Start Date: {role.startDate}</p>
+          <p>End Date: {role.endDate}</p>
+          <p>Revenue: {role.revenue}</p>
+          <p>Owner: {role.owner}</p>
+          <p>Forecast: {role.forecast}</p>
+      </div>
+      <div className='right-side'>
+          <p>Role: {role.role}</p>
+          <p>Location: {role.location}</p>
+          <p>Grade: {role.grade} </p>
+          <p>Notes: {role.notes}</p>
+      </div>
+   </div>
+      
+     
+     
+      <Link className='link-btn' to={'/opps-app'}>Back</Link>
+    </div>
     </div>
   );
 };

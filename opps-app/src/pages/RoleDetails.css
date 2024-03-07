@@ -1,0 +1,44 @@
+.main-container {
+    background-color: black;
+    height: 1000px;
+    padding-top: 15px;
+}
+
+.details-container {
+    background-color: aqua;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.title-container {
+    text-align: center;
+}
+
+.both-sides {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.left-side {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.right-side {
+    width: 50%;
+    border-left: 2px solid black;
+    padding-left: 20px;
+}
+
+a {
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 0px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: orange;
+}
