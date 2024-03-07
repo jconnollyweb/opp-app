@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import OpenRoles from './pages/OpenRoles';
 import RoleDetails from './pages/RoleDetails';
 import Header from './components/Header';
+import Form from './components/form/Form';
 
 const App = () => {
   return (

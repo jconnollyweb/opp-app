@@ -1,0 +1,33 @@
+form {
+    height: 550px;
+    background-color: rgb(42, 81, 81);
+    display: block;
+}
+
+
+input {
+    width: 80%;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 7%;
+}
+
+::placeholder {
+    font-family: "Ubuntu", sans-serif;
+    color: black;
+}
+
+.subBtn {
+   margin-left: 7%;
+   margin-top: 10px;
+}
+
+.btn {
+    font-family: "Ubuntu", sans-serif; 
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(12, 59, 59);
+    border: 1px solid rgb(12, 59, 59);
+    color: white;
+}
+
