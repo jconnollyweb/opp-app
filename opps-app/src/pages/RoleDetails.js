@@ -2,7 +2,7 @@ import React from 'react';
 import rolesData from '../data';
 import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom'
-import './RoleDetails.css'
+import styles from './RoleDetails.module.css'
 
 const RoleDetails = () => {
   const { id } = useParams(); 
