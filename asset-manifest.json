@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/opps-app/static/css/main.a790d68e.css",
-    "main.js": "/opps-app/static/js/main.008f52b4.js",
+    "main.css": "/opps-app/static/css/main.8ba06054.css",
+    "main.js": "/opps-app/static/js/main.0dd8e5a9.js",
     "static/js/453.7c22810c.chunk.js": "/opps-app/static/js/453.7c22810c.chunk.js",
     "index.html": "/opps-app/index.html",
-    "main.a790d68e.css.map": "/opps-app/static/css/main.a790d68e.css.map",
-    "main.008f52b4.js.map": "/opps-app/static/js/main.008f52b4.js.map",
+    "main.8ba06054.css.map": "/opps-app/static/css/main.8ba06054.css.map",
+    "main.0dd8e5a9.js.map": "/opps-app/static/js/main.0dd8e5a9.js.map",
     "453.7c22810c.chunk.js.map": "/opps-app/static/js/453.7c22810c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a790d68e.css",
-    "static/js/main.008f52b4.js"
+    "static/css/main.8ba06054.css",
+    "static/js/main.0dd8e5a9.js"
   ]
 }
