@@ -1,3 +1,8 @@
+body {
+  background-color: rgb(34, 32, 32);
+}
+
+
 .roleContainer {
     display: flex;
     justify-content: space-between;
@@ -7,16 +12,24 @@
     border: 2px solid black;
     border-radius: 10px;
     margin-bottom: 10px;
+    font-family: "Ubuntu", sans-serif;
+    background-color: rgb(42, 81, 81);
   }
 
   .nameContainer {
     margin-left: 10px;
     width: 20%;
+    font-family: "Ubuntu", sans-serif
   }
 
   a {
     color: black;
     text-decoration: none;
+  }
+
+  h1 {
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
   }
 
   

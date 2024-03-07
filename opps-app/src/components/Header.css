@@ -2,5 +2,11 @@ header {
     border-bottom: 2px solid black;
     text-align: center;
     font-size: 20px;
-    margin-bottom: -20px;
+    font-family: "Ubuntu", sans-serif;
+    background-color: white;
+    margin-top: -30px;
+}
+
+h1{
+    padding-top: 30px;
 }
